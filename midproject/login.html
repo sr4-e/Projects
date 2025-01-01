@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+
+
+  <body>
+
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__logo"><a href="#">Roamify.</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="project.html">Home</a></li>
+          <li class="link"><a href="project.html">About Us</a></li>
+          <li class="link"><a href="project.html">Discover</a></li>
+          <li class="link"><a href="project.html">Blog</a></li>
+          <li class="link"><a href="project.html">Journals</a></li>
+          <li class="link"><a href="project.html">Gallery</a></li>
+          <li class="link"><a href="project.html">Contact</a></li>
+          <li class="link"><a href="login.html">Login</a></li>
+          <li class="link search">
+            <span><i class="ri-search-line"></i></span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="content">
+        <h1>Welcome Back</h1>
+        <p>Please enter your details.</p>
+        <form id="loginForm">
+
+          <div class="input__group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Enter your email" id="email" required/>
+          </div>
+
+          <div class="input__group">
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter your password" id="password" required />
+          </div>
+
+          <div class="actions">
+            <div>
+
+              <input type="checkbox" />
+              <span>Remember me</span>
+
+            </div>
+            <a href="#">Forgot your password?</a>
+          </div>
+
+          <button type="submit">Log In</button>
+        </form>
+        <p>Don't have an account? <a href="#">Register here</a></p>
+      </div>
+
+    </div>
+    <script src="login.js"></script>
+  </body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   
+    <header>
+        <h2 class="logo">Login</h2>
+        <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+            
+                <button type="submit">Sign In</button>
+                <p id="errorMessage" class="error"></p> 
+                <p>Don't have an account?<a href="#">Sign Up</a></p>
+            </form>
+        
+    </div>
+    
+   <script src="login.js"></script>
+</body>
+</html> -->
